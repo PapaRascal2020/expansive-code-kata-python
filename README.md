@@ -30,9 +30,9 @@ xx|`None`
 <u>aaa</u> <u>bbb</u> <u>ccc</u>|aaa
 
 ### Info for running the test
-Install Python3
-CD into Root Directory in the Command Line
-RUN pip install pytest
-RUN python -m pytest tests
+* Install Python3
+* CD into Root Directory in the Command Line
+* RUN pip install pytest
+* RUN python -m pytest tests
 
 You should then see 13 passed the test and 0 failures
