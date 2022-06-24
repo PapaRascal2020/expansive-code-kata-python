@@ -1,12 +1,6 @@
 import re
 
 class palindrome:
-
-    def filterListByLength(item):
-        if(len(item) < self.minLength):
-            return False
-        else:
-            return True
     
     def findOrReturnNull(str):
         minLength = 3
