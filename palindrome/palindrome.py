@@ -23,10 +23,8 @@ class palindrome:
                 if subStr == subStr[::-1]:
                     palindromes.append(subStr)
 
-        
-        palindromes.sort(key = len)        
+              
         filteredList = list(filter(lambda str: len(str) >= minLength, palindromes))
-
         filteredList.sort(key = len)
 
         if len(filteredList) < 1:
